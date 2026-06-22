@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/frankxai/awesome-gamification-agent-skills/schemas/mastery-ledger-event.schema.json",
+  "title": "Mastery Ledger Event",
+  "type": "object",
+  "required": ["ts", "event", "actor", "subject", "track", "xp", "evidence", "privacy", "gate"],
+  "properties": {
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event": {
+      "type": "string",
+      "enum": [
+        "artifact.accepted",
+        "trial.passed",
+        "trial.failed",
+        "repair.completed",
+        "memory.recorded",
+        "canon.promoted",
+        "product.packaged",
+        "proof.claimed",
+        "agent.rank_changed",
+        "skill.verified"
+      ]
+    },
+    "actor": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "track": {
+      "type": "string"
+    },
+    "xp": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["type", "ref"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["path", "commit", "issue", "pull-request", "release", "hash", "url", "eval"]
+        },
+        "ref": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "privacy": {
+      "type": "string",
+      "enum": ["public", "unlisted", "private"]
+    },
+    "gate": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
+

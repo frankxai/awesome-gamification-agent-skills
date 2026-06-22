@@ -31,6 +31,21 @@
       "pattern": "multi-mode XP, gated reward pages"
     },
     {
+      "name": "Path of Exile 2",
+      "url": "https://pathofexile2.com/",
+      "pattern": "support gems modify base skill behavior"
+    },
+    {
+      "name": "Diablo IV 2.0 PTR Notes",
+      "url": "https://news.blizzard.com/en-us/article/24130178/the-2-0-ptr-what-you-need-to-know",
+      "pattern": "paragon boards, glyph radius, constrained board selection"
+    },
+    {
+      "name": "Diablo IV 2.1 PTR Notes",
+      "url": "https://news.blizzard.com/en-gb/article/24162193/the-2-1-ptr-what-you-need-to-know",
+      "pattern": "armory loadouts save equipment, skills, paragon nodes, and glyphs"
+    },
+    {
       "name": "Unreal Gameplay Ability System",
       "url": "https://dev.epicgames.com/documentation/unreal-engine/gameplay-ability-system-for-unreal-engine",
       "pattern": "abilities, attributes, effects, tasks, tags"
@@ -47,4 +62,3 @@
     }
   ]
 }
-

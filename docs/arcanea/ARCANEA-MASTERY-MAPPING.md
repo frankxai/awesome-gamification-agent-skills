@@ -4,6 +4,15 @@
 
 Arcanea should use **Mastery Engine** as the system-level architecture and **Epoch Forge** as one mythic expression inside the world/product.
 
+This file is the compact mapping. The fuller system lives in:
+
+- [Arcanea Mastery Engine](ARCANEA-MASTERY-ENGINE.md)
+- [Arcanea Progression System](ARCANEA-PROGRESSION-SYSTEM.md)
+- [Agent Swarm Mastery](AGENT-SWARM-MASTERY.md)
+- [World To Product Mastery](WORLD-TO-PRODUCT-MASTERY.md)
+- [Mastery Ledger And Proof](MASTERY-LEDGER-AND-PROOF.md)
+- [Implementation Blueprint](IMPLEMENTATION-BLUEPRINT.md)
+
 ## Arcanea Lanes
 
 | Mastery lane | Arcanea expression | Output |
@@ -70,12 +79,8 @@ If a mechanic cannot explain its story consequence, it is probably generic gamif
 
 ## Update Needed In Prior Forge Doc
 
-The existing Forge Progression Standard should be renamed or reframed:
+The existing Forge Progression Standard in `arcanea-ecosystem` has been reframed with a naming note:
 
-- from: `ARCANEA_FORGE_PROGRESSION_STANDARD.md`
-- to one of:
-  - `ARCANEA_MASTERY_ENGINE_STANDARD.md`
-  - `ARCANEA_MASTERY_ENGINE_AND_EPOCH_FORGE.md`
-
-Recommended: keep the current file for now, but add a note that Forge is a track within the Mastery Engine.
-
+- **Mastery Engine** is the umbrella.
+- **Epoch Forge** is the craft/artifact track.
+- **Academy, Armory, Trials, Codex, Swarm, and Citadel** cover the broader progression system.

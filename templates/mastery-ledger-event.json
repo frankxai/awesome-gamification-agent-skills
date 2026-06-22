@@ -1,0 +1,19 @@
+{
+  "ts": "2026-06-23T00:00:00Z",
+  "event": "artifact.accepted",
+  "actor": "agent:example",
+  "subject": "world:example",
+  "track": "forge",
+  "xp": {
+    "craft": 5,
+    "judgment": 1
+  },
+  "evidence": {
+    "type": "path",
+    "ref": "forge/artifacts/example.md"
+  },
+  "privacy": "public",
+  "gate": "review:accepted",
+  "notes": "Accepted example artifact."
+}
+

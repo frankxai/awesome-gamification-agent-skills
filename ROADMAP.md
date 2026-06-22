@@ -8,6 +8,7 @@
 - Unity, Unreal, web, and agent runtime adapter notes.
 - Starter skills for agent progression, coding-agent mapping, MD skill trees, and Unity progression.
 - Validation script and GitHub Actions workflow.
+- Arcanea Mastery Engine doctrine, progression system, swarm mastery, product ladder, ledger/proof spec, and example world mastery folder.
 
 ## v0.2 Research Depth
 
@@ -33,4 +34,5 @@
 - Reframe the Arcanea Forge doc under Mastery Engine.
 - Add Arcanea world-repo examples under `examples/arcanea-world-mastery/`.
 - Add First Trial templates for world, agent, skill, and product mastery.
-
+- Add `mastery-state.mjs` for Arcanea world repos.
+- Add AO/SO queue templates for Mastery Engine work.

@@ -131,3 +131,17 @@ The same Markdown can be adapted into:
 5. One progress ledger.
 6. One reward that changes what the user or agent can do.
 
+## 11. Arcanea Specialization
+
+Arcanea extends the generic standard with:
+
+- creator ranks
+- world tiers
+- agent swarm trust
+- skill states
+- product stages
+- Epoch Forge artifacts
+- memory writeback
+- proof rails
+
+Use `docs/arcanea/ARCANEA-MASTERY-ENGINE.md` as the Arcanea product doctrine and keep this file as the portable base.

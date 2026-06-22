@@ -39,6 +39,7 @@ Great games are good at making progress visible, legible, and desirable. Great a
 
 - Research from great games and game-engine systems.
 - A reusable Mastery Engine standard.
+- A concrete Arcanea Mastery Engine and progression system.
 - Markdown templates for skill trees, agent cards, progression tracks, quests, and eval trials.
 - Agent skill definitions that help coding agents design, implement, and audit gamified systems.
 - Arcanea mappings for creator progression, world progression, skill progression, and swarm progression.
@@ -59,10 +60,21 @@ data/       source indexes and research metadata
 ## Core Docs
 
 - [Naming and Scope](docs/NAMING-AND-SCOPE.md)
+- [General Genius Model](docs/GENERAL-GENIUS.md)
+- [Progression Pattern Language](docs/PATTERN-LANGUAGE.md)
 - [Game Progression Research](docs/GAME-PROGRESSION-RESEARCH.md)
 - [Mastery Engine Standard](docs/MASTERY-ENGINE-STANDARD.md)
 - [Engine Adapters](docs/ENGINE-ADAPTERS.md)
 - [Arcanea Mapping](docs/arcanea/ARCANEA-MASTERY-MAPPING.md)
+
+## Arcanea Mastery Engine
+
+- [Arcanea Mastery Engine](docs/arcanea/ARCANEA-MASTERY-ENGINE.md)
+- [Arcanea Progression System](docs/arcanea/ARCANEA-PROGRESSION-SYSTEM.md)
+- [Agent Swarm Mastery](docs/arcanea/AGENT-SWARM-MASTERY.md)
+- [World To Product Mastery](docs/arcanea/WORLD-TO-PRODUCT-MASTERY.md)
+- [Mastery Ledger And Proof](docs/arcanea/MASTERY-LEDGER-AND-PROOF.md)
+- [Implementation Blueprint](docs/arcanea/IMPLEMENTATION-BLUEPRINT.md)
 
 ## Minimum Viable Mastery System
 
@@ -74,11 +86,15 @@ See [examples/minimum-mastery-system](examples/minimum-mastery-system/) for a ti
 - one reward
 - one ledger event
 
+See [examples/arcanea-mastery-engine](examples/arcanea-mastery-engine/) for an Arcanea-specific example with creator, world, swarm, agent, Forge, and ledger files.
+
 ## Starter Skills
 
 - [agent-progression-designer](skills/agent-progression-designer/SKILL.md)
+- [arcanea-mastery-engine-designer](skills/arcanea-mastery-engine-designer/SKILL.md)
 - [coding-agent-capability-mapper](skills/coding-agent-capability-mapper/SKILL.md)
 - [md-skill-tree-architect](skills/md-skill-tree-architect/SKILL.md)
+- [progression-system-auditor](skills/progression-system-auditor/SKILL.md)
 - [unity-progression-system](skills/unity-progression-system/SKILL.md)
 
 ## Validate
@@ -90,6 +106,7 @@ npm run validate
 The validator checks:
 
 - JSON validity
+- JSONL validity
 - trailing whitespace
 - required skill frontmatter
 
@@ -99,4 +116,4 @@ Progression must prove new capability. XP without evidence becomes noise. Every 
 
 ## Status
 
-Early public foundation. The next step is deeper case studies and generators that turn Markdown specs into Unity ScriptableObjects, Unreal data assets, web JSON, and agent-runtime loadouts.
+Public foundation with Arcanea Mastery Engine v0.1. The next step is deeper case studies and generators that turn Markdown specs into Unity ScriptableObjects, Unreal data assets, web JSON, and agent-runtime loadouts.

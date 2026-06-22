@@ -1,0 +1,16 @@
+{
+  "world": "memory-city",
+  "mastery": {
+    "systemVersion": "0.1.0",
+    "worldTier": 1,
+    "creatorRank": "Builder",
+    "activeTracks": ["creator-path", "world-tier", "swarm-trust"],
+    "ledger": "mastery/ledger.jsonl"
+  },
+  "forge": {
+    "track": "mastery/tracks/creator-path.md",
+    "stations": ["anvil", "lens", "bastion", "gate"],
+    "artifactClasses": ["tool", "ward", "key", "vessel", "citadel"]
+  }
+}
+

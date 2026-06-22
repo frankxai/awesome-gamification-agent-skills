@@ -2,7 +2,7 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const textExtensions = new Set([".md", ".json", ".mjs", ".yml", ".yaml", ".txt"]);
+const textExtensions = new Set([".md", ".json", ".jsonl", ".mjs", ".yml", ".yaml", ".txt"]);
 const errors = [];
 
 async function walk(dir) {
@@ -64,6 +64,17 @@ for (const file of files) {
     }
   }
 
+  if (ext === ".jsonl") {
+    const lines = text.split(/\r?\n/).filter((line) => line.trim().length > 0);
+    lines.forEach((line, index) => {
+      try {
+        JSON.parse(line);
+      } catch (error) {
+        errors.push(`${relative}:${index + 1}: invalid JSONL: ${error.message}`);
+      }
+    });
+  }
+
   if (relative.startsWith("skills/") && relative.endsWith("/SKILL.md")) {
     validateSkill(file, text);
   }
@@ -75,4 +86,3 @@ if (errors.length > 0) {
 }
 
 console.log(`Validated ${files.length} files.`);
-
