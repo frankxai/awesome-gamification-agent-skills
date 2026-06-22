@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "name": "Warframe Mastery Ranks Guide",
+      "url": "https://www.warframe.com/en/news/mastery-ranks-guide",
+      "pattern": "account mastery, unique equipment progress, rank-up tests"
+    },
+    {
+      "name": "EVE Online Updates To Skill Training",
+      "url": "https://www.eveonline.com/news/view/updates-to-skill-training",
+      "pattern": "shareable skill plans, ordered milestones, goal-based training"
+    },
+    {
+      "name": "RuneScape Skills",
+      "url": "https://www.runescape.com/game-guide/skills",
+      "pattern": "activity-specific XP unlocks equipment, quests, locations, activities"
+    },
+    {
+      "name": "Final Fantasy XIV Classes and Jobs",
+      "url": "https://na.finalfantasyxiv.com/a_realm_reborn/game/",
+      "pattern": "disciplines, crafting/gathering, specialization after mastery"
+    },
+    {
+      "name": "Destiny 2 Guardian Ranks",
+      "url": "https://help.bungie.net/hc/en-us/articles/19985032189972-Guardian-Ranks",
+      "pattern": "proficiency ranks, objective gates, seasonal renewal"
+    },
+    {
+      "name": "Fortnite Battle Pass Support",
+      "url": "https://www.epicgames.com/help/c-202300000001636/c-5719350646299/a202300000013265",
+      "pattern": "multi-mode XP, gated reward pages"
+    },
+    {
+      "name": "Unreal Gameplay Ability System",
+      "url": "https://dev.epicgames.com/documentation/unreal-engine/gameplay-ability-system-for-unreal-engine",
+      "pattern": "abilities, attributes, effects, tasks, tags"
+    },
+    {
+      "name": "Unity ScriptableObjects Guide",
+      "url": "https://unity.com/how-to/separate-game-data-logic-scriptable-objects",
+      "pattern": "separate static data from behavior logic"
+    },
+    {
+      "name": "Unity Leaderboards Manual",
+      "url": "https://docs.unity3d.com/6000.0/Documentation/Manual/com.unity.services.leaderboards.html",
+      "pattern": "socio-competitive score ranking service"
+    }
+  ]
+}
+

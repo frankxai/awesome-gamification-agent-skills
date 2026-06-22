@@ -1,0 +1,23 @@
+{
+  "name": "awesome-gamification-agent-skills",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Markdown-first mastery systems for gamifying AI agents, coding skills, creator progression, and game-engine capability trees.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "ai-agents",
+    "gamification",
+    "skill-trees",
+    "progression-systems",
+    "markdown",
+    "unity",
+    "unreal-engine",
+    "agent-skills",
+    "mastery-engine"
+  ],
+  "license": "MIT"
+}
+
