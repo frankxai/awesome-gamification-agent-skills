@@ -97,6 +97,10 @@ See [examples/arcanea-mastery-engine](examples/arcanea-mastery-engine/) for an A
 - [progression-system-auditor](skills/progression-system-auditor/SKILL.md)
 - [unity-progression-system](skills/unity-progression-system/SKILL.md)
 
+## Companion Repositories
+
+- [AnimeLegends](https://github.com/frankxai/AnimeLegends) — Interactive anime experience framework designed to demonstrate and verify complex agentic progression, storytelling, and world-building capability.
+
 ## Validate
 
 ```bash
