@@ -1,27 +1,20 @@
-# Contributing
+# Contributing Standards
 
-This repo welcomes research notes, reusable templates, validation scripts, and agent skills for evidence-based progression systems.
+We welcome contributions that align with our core thesis of **verifiable, world-healing, and rigorously-tested agent intelligence**.
 
-## What Fits
+## The Golden Rules
 
-- Source-linked research from games, game engines, learning systems, and agent workflows.
-- Markdown-first skill trees, trials, reward models, and loadout templates.
-- Agent skills that help design, implement, or audit progression systems.
-- Unity, Unreal, web, and agent-runtime adapters.
+1. **No Hallucinated Tooling**: If you submit an agent skill, prompt, or tool, it must be verified to work against a real API or framework.
+2. **Safety First**: Any capability that interfaces with the physical world, live capital, or critical infrastructure must include strict human-in-the-loop approval gates.
+3. **High Signal, Low Noise**: We prefer deeply curated, opinionated lists over exhaustive link dumps. If you add a repository, explain *why* it is the best-in-class choice for that specific layer of the agent OS.
+4. **Formatting**: Ensure your Markdown is clean. If adding to a list, use the existing `<details>` structure to preserve the scannability of the README.
 
-## What Does Not Fit
+## How to Submit
 
-- Copied game text, icons, UI layouts, names, or proprietary content.
-- Vanity XP systems that reward activity without evidence.
-- Broad inspiration notes without a reusable pattern.
-- Private Arcanea lore or unpublished world memory.
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/amazing-new-skill`).
+3. Commit your changes (`git commit -m 'feat: Add incredible new skill'`).
+4. Push to the branch (`git push origin feature/amazing-new-skill`).
+5. Open a Pull Request.
 
-## Contribution Checklist
-
-- Link primary sources where possible.
-- Mark design inferences separately from source facts.
-- Keep artifacts portable and git-friendly.
-- Run `npm run validate`.
-- Add new skills under `skills/<skill-name>/SKILL.md`.
-- Add reusable templates under `templates/`.
-
+Your PR will be reviewed against our strict quality gates. We expect a high standard of engineering and documentation. Thank you for helping build the intelligence layer.
