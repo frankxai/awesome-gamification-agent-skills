@@ -25,6 +25,7 @@ Design for consent, clarity, and meaningful choice. Avoid dark patterns or auton
 | [gstack](https://github.com/garrytan/gstack) | MIT · 125,927★ | Planning/design/QA tools. |
 | [Agent Skills](https://github.com/agentskills/agentskills) | Apache-2.0 · 23,762★ | Playtest/balance checklists. |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | MIT · 28,345★ | Bounded evaluation workflows. |
+| [Awesome Game AI](https://github.com/datamllab/awesome-game-ai) | MIT · 973★ | Peer directory for multi-agent game-learning research; use it to locate primary sources. |
 
 ## 6-Pillar curation lens
 
@@ -62,6 +63,6 @@ Open a PR with a primary URL, one-sentence distinct value, current maintenance e
 
 ## Research method
 
-This monthly pulse queried GitHub repository metadata on **2026-08-03** for identity, approximate stars, archived state, activity, and license posture. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
+This monthly pulse queried selected GitHub repository metadata on **2026-08-05** for identity, approximate stars, archived state, activity, and license posture. Earlier rows retain their prior dated snapshots where they were not re-fetched. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
 
-Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-03**.
+Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-05**.
