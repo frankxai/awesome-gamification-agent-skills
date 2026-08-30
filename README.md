@@ -46,7 +46,8 @@ Scan with [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) before a
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | MIT · 28,345★ | Bounded evaluation workflows. |
 | [Awesome Game AI](https://github.com/datamllab/awesome-game-ai) | MIT · 973★ | Peer directory for multi-agent game-learning research; use it to locate primary sources. |
 
-## 6-Pillar curation lens
+<details>
+<summary>Editorial curation lens (optional)</summary>
 
 ```mermaid
 mindmap
@@ -67,11 +68,13 @@ mindmap
 
 This lens is editorial, not an endorsement or a claim that a project satisfies every pillar.
 
+</details>
+
 ## Explore the Full FrankX Awesome Ecosystem (optional)
 
 Companion catalogs are optional; the third-party projects above are this list's primary value.
 
-- [awesome-jarvis](https://github.com/frankxai/awesome-jarvis) · [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) · [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills) · [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
+- [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) · [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills) · [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
 - [awesome-agentic-income](https://github.com/frankxai/awesome-agentic-income) · [awesome-investor-agent-skills](https://github.com/frankxai/awesome-investor-agent-skills) · [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) · [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems)
 - [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills) · [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [awesome-gamification-agent-skills](https://github.com/frankxai/awesome-gamification-agent-skills) · [awesome-wealth-agent-skills](https://github.com/frankxai/awesome-wealth-agent-skills)
 - [awesome-mind-agent-skills](https://github.com/frankxai/awesome-mind-agent-skills) · [awesome-cosmos-ai-agents](https://github.com/frankxai/awesome-cosmos-ai-agents) · [awesome-automation-agent-skills](https://github.com/frankxai/awesome-automation-agent-skills) · [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills) · [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills)
@@ -83,5 +86,9 @@ Open a PR with a primary URL, one-sentence distinct value, current maintenance e
 ## Research method
 
 This monthly pulse queried selected GitHub repository metadata on **2026-08-05** for identity, approximate stars, archived state, activity, and license posture. Earlier rows retain their prior dated snapshots where they were not re-fetched. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
+
+## License
+
+[MIT](LICENSE)
 
 Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-05**.
