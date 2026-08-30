@@ -10,6 +10,25 @@ This is an independent, **web-first** catalog. It remains useful if every FrankX
 
 Design for consent, clarity, and meaningful choice. Avoid dark patterns or autonomous changes to user progression or spending.
 
+<!-- earned-skill-index:2026-08-30 -->
+
+## Earned agent skills (start here)
+
+Operators get leverage from **about 5–7 named workflows**, not bulk dumps. Hub: [https://github.com/frankxai/awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [earned index](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/EARNED-SKILLS.md) · [safety gate](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md).
+
+**Gamification agent skills**
+
+| Pack | Job |
+| --- | --- |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official skill-creator + artifacts |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Product loops and QA |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Engineering skills for game-like systems |
+| [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | Engine skills — **router + one engine** |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan before install |
+
+Scan with [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) before a live profile. Do not install unsigned ZIP/S3 skill blobs or OpenClaw mass dumps.
+
+
 ## Peer directories and standards
 
 [godotengine/godot](https://github.com/godotengine/godot) · [boardgame.io](https://github.com/boardgameio/boardgame.io)
