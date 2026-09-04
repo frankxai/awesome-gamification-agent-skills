@@ -7,7 +7,7 @@ Welcome to the community! If you're new to Claude Code, AI agents, or our ecosys
 - **API Keys**: You will need an Anthropic API key to run Claude models.
 
 ## 2. Installing Your First Free Skill
-This repository contains "Lite" versions of our premium agentic skills. 
+This repository contains "Lite" versions of our premium agentic skills.
 
 To use a skill:
 1. Navigate to the `skills/` folder in this repository.
@@ -16,7 +16,7 @@ To use a skill:
 4. Prompt Claude to use the skill. For example: *"Review my UI design using the basic-design-reviewer skill."*
 
 ## 3. Upgrading to Premium Products
-While the skills in this repository are free and open-source, they are the "Lite" versions of our full capabilities. 
+While the skills in this repository are free and open-source, they are the "Lite" versions of our full capabilities.
 
 If you want to access:
 - **Full multi-agent Swarms** (e.g., The Visual Creation Loop)
