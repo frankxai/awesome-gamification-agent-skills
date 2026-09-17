@@ -1,68 +1,119 @@
-# Awesome Gamification Agent Skills
+<p align="center">
+  <img src="assets/hero.svg" alt="Awesome Gamification Agent Skills" width="100%">
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Stars](https://img.shields.io/github/stars/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills/stargazers) [![Last commit](https://img.shields.io/github/last-commit/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills/commits/main)
+<h1 align="center">Awesome Gamification Agent Skills</h1>
 
-> Web-first resources for ethical progression systems, game-state design, multiplayer coordination, and agent-assisted playtesting.
+<p align="center">
+  <strong>Curated through the GenCreator 6-Pillar CoE lens • Starlight Swarm • Arcanea Creative Execution • Agentic Passive Income Systems</strong>
+</p>
 
-This is an independent, **web-first** catalog. It remains useful if every FrankX link is removed: third-party primary sources lead, while companion lists appear only at the end.
+<p align="center">
+  <a href="#contents">Contents</a> ·
+  <a href="#6-pillar-mapping">6-Pillar Mapping</a> ·
+  <a href="#explore-the-full-frankx-awesome-ecosystem-17-lists">Full Ecosystem (17)</a> ·
+  <a href="#contributing">Contribute</a>
+</p>
 
-## Start here
+[![Validate](https://github.com/frankxai/awesome-gamification-agent-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/frankxai/awesome-gamification-agent-skills/actions/workflows/validate.yml)
+[![Stars](https://img.shields.io/github/stars/frankxai/awesome-gamification-agent-skills)](https://github.com/frankxai/awesome-gamification-agent-skills/stargazers)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
-Design for consent, clarity, and meaningful choice. Avoid dark patterns or autonomous changes to user progression or spending.
+> **THE definitive curated resource for gamification-agent-skills** — Leaderboards, quests, progression systems, esports agents, lol-esports-llm-agents, MCP gamification servers, and agentic mastery loops. 6-Pillar aligned for talent development and income.
 
-## Peer directories and standards
+## Why This List Exists
+Gamification drives engagement, skill development (Talent pillar), and recurring income through agentic systems. Integrates with lol-esports-llm-agents and agentic-passive-income.
 
-[godotengine/godot](https://github.com/godotengine/godot) · [boardgame.io](https://github.com/boardgameio/boardgame.io)
+## Contents
+- [Top Picks](#top-picks)
+- [Core Gamification Frameworks](#core-gamification-frameworks)
+- [Esports & Competitive Agents](#esports--competitive-agents)
+- [MCP & Agent Skills](#mcp--agent-skills)
+- [Agentic Passive Income & Loops](#agentic-passive-income--loops)
+- [6-Pillar Mapping](#6-pillar-mapping)
+- [Explore the Full FrankX Awesome Ecosystem (17+ Lists)](#explore-the-full-frankx-awesome-ecosystem-17-lists)
+- [Contributing](#contributing)
 
-## Curated catalog
+## Top Picks
+| Category | Recommended | 6-Pillar Fit |
+|----------|-------------|--------------|
+| Esports | lol-esports-llm-agents | Talent + Technology |
+| Progression | Custom quest agents | Talent + Governance |
+| Income | Mastery loop agents | Income pillar |
 
-| Project | Pulse snapshot | Why it is here |
-| --- | --- | --- |
-| [Godot](https://github.com/godotengine/godot) | MIT · 114,953★ | Open 2D/3D engine. |
-| [Phaser](https://github.com/phaserjs/phaser) | MIT · 40,049★ | Web game framework. |
-| [boardgame.io](https://github.com/boardgameio/boardgame.io) | MIT · 12,388★ | Turn-based game state/multiplayer. |
-| [Colyseus](https://github.com/colyseus/colyseus) | MIT · 7,150★ | Node multiplayer framework. |
-| [gstack](https://github.com/garrytan/gstack) | MIT · 125,927★ | Planning/design/QA tools. |
-| [Agent Skills](https://github.com/agentskills/agentskills) | Apache-2.0 · 23,762★ | Playtest/balance checklists. |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | MIT · 28,345★ | Bounded evaluation workflows. |
-| [Awesome Game AI](https://github.com/datamllab/awesome-game-ai) | MIT · 973★ | Peer directory for multi-agent game-learning research; use it to locate primary sources. |
+## Core Gamification Frameworks
+- Leaderboard systems, XP/levels, badges, quests, achievements.
+- Integration with kanban-orchestrator and kanban-worker for agent progression tracking.
+- **lol-esports-llm-agents** skill – Curated research on League of Legends AI agents, LLM-powered esports analysis (load via skill_view).
 
-## 6-Pillar curation lens
+## Esports & Competitive Agents
+- LLM agents for match analysis, strategy, real-time coaching.
+- Gamified agent training environments.
+- Cross with gamification in wealth/investor for simulated trading games.
 
+## MCP & Agent Skills
+- gstack gamification skills.
+- Hermes integration for multi-agent game masters and player agents.
+
+## Agentic Passive Income & Loops
+- Gamified skill marketplaces, subscription mastery programs, tournament agents.
+- Load skill_view(name='agentic-passive-income')
+
+## 6-Pillar Mapping
 ```mermaid
 mindmap
-  root((Curated agent capability))
+  root((GenCreator 6-Pillar CoE\nFrankX / Starlight / Arcanea Lens))
     Strategy
-      fit and scope
+      Vision & Roadmaps
+      Prioritization & OKRs
+      Ecosystem Architecture
     Governance
-      provenance and license
+      Policies & Oversight
+      Compliance & Provenance
+      Risk & IP Management
     Talent
-      human review
+      Agent Recruitment & Roles
+      Human-AI Collaboration
+      Skill Development
     Technology
-      tools and integration
+      Hermes Profiles & MCP
+      Tools & Infrastructure
+      Loops, Cron, Kanban, Evolver
     Data
-      evidence and memory
+      Memory & Knowledge Bases
+      Research Pulses & Curation
+      Analytics & Tracking
     Ethics
-      safety and disclosure
+      Values Alignment
+      Transparency & Disclosure
+      Safety & Sustainability
 ```
 
-This lens is editorial, not an endorsement or a claim that a project satisfies every pillar.
+## Explore the Full FrankX Awesome Ecosystem (17+ Lists)
+Curated through the GenCreator 6-Pillar CoE lens • Starlight Swarm • Arcanea Creative Execution • Agentic Passive Income Systems
 
-## Explore the Full FrankX Awesome Ecosystem (optional)
+- [awesome-jarvis](https://github.com/frankxai/awesome-jarvis)
+- [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills)
+- [awesome-agentic-income](https://github.com/frankxai/awesome-agentic-income)
+- [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents)
+- [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
+- [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills)
+- [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills)
+- [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems)
+- [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills)
+- [awesome-wealth-agent-skills](https://github.com/frankxai/awesome-wealth-agent-skills)
+- [awesome-gamification-agent-skills](https://github.com/frankxai/awesome-gamification-agent-skills) ← You are here
+- [awesome-investor-agent-skills](https://github.com/frankxai/awesome-investor-agent-skills)
+- [awesome-automation-agent-skills](https://github.com/frankxai/awesome-automation-agent-skills)
+- [awesome-cosmos-ai-agents](https://github.com/frankxai/awesome-cosmos-ai-agents)
+- [awesome-mind-agent-skills](https://github.com/frankxai/awesome-mind-agent-skills)
+- [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills)
+- [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills)
 
-Companion catalogs are optional; the third-party projects above are this list's primary value.
+## Contributing
+Follow [CONTRIBUTING.md](CONTRIBUTING.md) and provenance from awesome-hermes-agents. Add 6-Pillar Fit and source. Use issue templates.
 
-- [awesome-jarvis](https://github.com/frankxai/awesome-jarvis) · [awesome-hermes-agents](https://github.com/frankxai/awesome-hermes-agents) · [awesome-manifestation-skills](https://github.com/frankxai/awesome-manifestation-skills) · [awesome-ai-coe](https://github.com/frankxai/awesome-ai-coe)
-- [awesome-agentic-income](https://github.com/frankxai/awesome-agentic-income) · [awesome-investor-agent-skills](https://github.com/frankxai/awesome-investor-agent-skills) · [awesome-design-agent-skills](https://github.com/frankxai/awesome-design-agent-skills) · [awesome-agent-operating-systems](https://github.com/frankxai/awesome-agent-operating-systems)
-- [awesome-music-agent-skills](https://github.com/frankxai/awesome-music-agent-skills) · [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [awesome-gamification-agent-skills](https://github.com/frankxai/awesome-gamification-agent-skills) · [awesome-wealth-agent-skills](https://github.com/frankxai/awesome-wealth-agent-skills)
-- [awesome-mind-agent-skills](https://github.com/frankxai/awesome-mind-agent-skills) · [awesome-cosmos-ai-agents](https://github.com/frankxai/awesome-cosmos-ai-agents) · [awesome-automation-agent-skills](https://github.com/frankxai/awesome-automation-agent-skills) · [awesome-payment-agent-skills](https://github.com/frankxai/awesome-payment-agent-skills) · [awesome-motion-design-agent-skills](https://github.com/frankxai/awesome-motion-design-agent-skills)
+**Maintenance**: Updated via awesome-list-maintenance skill + gencreator-swarm-evolver. Last research pulse: 2026-07-01
 
-## Contribution standard
-
-Open a PR with a primary URL, one-sentence distinct value, current maintenance evidence, license posture, and relevant safety/deployment caveat. Do not submit affiliate links, private workflow exports, unverified claims, or a product pitch in place of a useful third-party resource.
-
-## Research method
-
-This monthly pulse queried selected GitHub repository metadata on **2026-08-05** for identity, approximate stars, archived state, activity, and license posture. Earlier rows retain their prior dated snapshots where they were not re-fetched. `NOASSERTION` means GitHub did not return a standard SPDX identifier; review the repository license before adoption. Counts are dated discovery signals, not rankings. Nothing here is financial, legal, medical, or safety advice.
-
-Maintained as independent, web-first curation by FrankX. Last research pulse: **2026-08-05**.
+*Elevated with patched template: mermaid 6-pillar, 17-list cross links, hero.svg, .github/ standards, gh topics/description. Verified with gh/git.*
