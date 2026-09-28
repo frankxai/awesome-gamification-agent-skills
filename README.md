@@ -1,6 +1,6 @@
 # Awesome Gamification Agent Skills
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Stars](https://img.shields.io/github/stars/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills/stargazers) [![Last commit](https://img.shields.io/github/last-commit/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills/commits/main)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Stars](https://img.shields.io/github/stars/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills) [![Last commit](https://img.shields.io/github/last-commit/frankxai/awesome-gamification-agent-skills?style=flat)](https://github.com/frankxai/awesome-gamification-agent-skills/commits/main)
 
 > Web-first resources for ethical progression systems, game-state design, multiplayer coordination, and agent-assisted playtesting.
 
