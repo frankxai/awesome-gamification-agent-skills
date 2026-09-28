@@ -28,6 +28,7 @@ jobs:
             --max-retries=3
             --exclude https://github.com/frankxai/awesome-jarvis
             --exclude '^https://www.epicgames.com/help/'
+            --exclude '^https://help.bungie.net/'
             './**/*.md'
           fail: true
           jobSummary: true
@@ -50,6 +51,7 @@ jobs:
             --max-retries=3
             --exclude https://github.com/frankxai/awesome-jarvis
             --exclude '^https://www.epicgames.com/help/'
+            --exclude '^https://help.bungie.net/'
             './**/*.md'
           fail: false
           jobSummary: true
